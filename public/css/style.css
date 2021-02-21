@@ -6,6 +6,27 @@ body {
     margin: 0;
 }
 
+
+/* width */
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #555;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7400ff;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7400ff;
+  }
+
 .app {
     background: #0f162c;
     height: 100%;
