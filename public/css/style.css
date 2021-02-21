@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+.app {}
+
+.repos-page,
+.users-page {
+    margin: 50px 25px 0;
+}
+
+header {
+    background: lightgray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.user-items {
+    background: red;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    flex-wrap: wrap;
+    max-height: 400px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.user-items li {
+    width: 7vw;
+    height: 7vw;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    background: cadetblue;
+    margin: 10px auto;
+    border-radius: 10%;
+    color: #fff;
+}
+
+.user-items li img {
+    width: 6vw;
+    border-radius: 10%;
+    border-radius: 2px ​solid #000;
+}
+
+.back-button {}
+
+.nav-buttons:first-child::after {}
+
+.nav-buttons {
+    background: none;
+    color: #000;
+    border: none;
+    font-family: 'Arial';
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.search-field {}
+
+.pagination {
+    float: right;
+}
+
+.pagination button {
+    background: none;
+    color: #000;
+    border: none;
+    font-family: 'Arial';
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.user-about {}
+
+.repos-list {
+    list-style: none;
+}
