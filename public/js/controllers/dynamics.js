@@ -177,6 +177,7 @@ function DynamicComponent () {
 
                     let listItem = document.createElement('li'),
                         itemButton = document.createElement('button'),
+                        title = document.createElement('span'),
                         avatar = document.createElement('img');
 
                     itemButton.setAttribute('value', element.login);
@@ -185,7 +186,9 @@ function DynamicComponent () {
 
                     itemButton.appendChild(avatar);
 
-                    itemButton.appendChild(document.createTextNode(element.login));
+                    title.appendChild(document.createTextNode(element.login));
+
+                    itemButton.appendChild(title);
 
                     itemButton.addEventListener('click', function (e) {
 
